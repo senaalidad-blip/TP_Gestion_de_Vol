@@ -1,0 +1,431 @@
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) :   [!] Saisie invalide : entrez un nombre entier.
+Votre choix (1-10) :   [!] Valeur attendue entre 1 et 10.
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+
+[!] Operation refusee : Aucun passager enregistre : enregistrez-en un d'abord.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un passager ---
+Nom : Prenom : Telephone :   [!] Numero invalide (8 a 15 chiffres, '+' autorise au debut).
+Telephone : N° de piece d'identite (passeport/CIP) : 
+[OK] Passager enregistre. Identifiant : P001
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un passager ---
+Nom : Prenom : Telephone : N° de piece d'identite (passeport/CIP) : 
+[OK] Passager enregistre. Identifiant : P002
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Ajout d'un vol ---
+Numero du vol (ex : AF512) : Ville de depart : Ville d'arrivee : Date et heure de depart (JJ/MM/AAAA HH:MM) :   [!] Date invalide. Format attendu : JJ/MM/AAAA HH:MM (ex : 15/12/2026 08:30).
+Date et heure de depart (JJ/MM/AAAA HH:MM) : Capacite (1-600) :   [!] Valeur attendue entre 1 et 600.
+Capacite (1-600) : Prix du billet (FCFA) :   [!] La valeur doit etre strictement positive.
+Prix du billet (FCFA) : 
+[OK] Vol AF512 ajoute.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Ajout d'un vol ---
+Numero du vol (ex : AF512) : Ville de depart : Ville d'arrivee : Date et heure de depart (JJ/MM/AAAA HH:MM) : Capacite (1-600) : Prix du billet (FCFA) : 
+[OK] Vol ET900 ajoute.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Vols disponibles ---
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+AF512   Cotonou         Paris           15/12/2026 08:30  1/1       450000 FCFA
+ET900   Cotonou         Abidjan         20/12/2026 22:10  2/2       150000 FCFA
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Recherche d'un vol ---
+Mot-cle (numero, depart ou destination) : 
+1 vol(s) trouve(s) :
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+AF512   Cotonou         Paris           15/12/2026 08:30  1/1       450000 FCFA
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+Identifiant du passager (ex : P001) : 
+[!] Operation refusee : Passager introuvable : il doit etre enregistre avant de reserver.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+Identifiant du passager (ex : P001) : 
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+AF512   Cotonou         Paris           15/12/2026 08:30  1/1       450000 FCFA
+ET900   Cotonou         Abidjan         20/12/2026 22:10  2/2       150000 FCFA
+
+Numero du vol : 
+[OK] Reservation R001 creee (EN ATTENTE de paiement).
+     Montant a regler : 450000 FCFA
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+Identifiant du passager (ex : P001) : 
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+ET900   Cotonou         Abidjan         20/12/2026 22:10  2/2       150000 FCFA
+
+Numero du vol : 
+[!] Operation refusee : Le vol AF512 est complet.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+Identifiant du passager (ex : P001) : 
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+ET900   Cotonou         Abidjan         20/12/2026 22:10  2/2       150000 FCFA
+
+Numero du vol : 
+[!] Operation refusee : Ce passager a deja une reservation active pour ce vol (R001).
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un paiement ---
+Identifiant de la reservation (ex : R001) : Montant du : 450000 FCFA
+Montant verse (FCFA) : Mode : 1. Especes  2. Mobile Money  3. Carte bancaire
+Choix du mode (1-3) : 
+[!] Operation refusee : Montant incorrect : le prix du billet est de 450000 FCFA.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un paiement ---
+Identifiant de la reservation (ex : R001) : Montant du : 450000 FCFA
+Montant verse (FCFA) : Mode : 1. Especes  2. Mobile Money  3. Carte bancaire
+Choix du mode (1-3) : 
+[OK] Paiement PAY001 enregistre. Reservation R001 VALIDEE : la place est definitivement reservee.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un paiement ---
+Identifiant de la reservation (ex : R001) : 
+[!] Operation refusee : Cette reservation est deja payee.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Annulation d'une reservation ---
+Identifiant de la reservation : Confirmer l'annulation de R001 (o/n) : Reservation payee : rembourser immediatement (o/n) : 
+[OK] Reservation R001 annulee. Remboursement : Rembourse.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Enregistrement d'un paiement ---
+Identifiant de la reservation (ex : R001) : 
+[!] Operation refusee : Une reservation annulee ne peut plus etre payee.
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Nouvelle reservation ---
+Identifiant du passager (ex : P001) : 
+Vol     Origine         Destination     Depart            Places    Prix
+------------------------------------------------------------------------------------
+AF512   Cotonou         Paris           15/12/2026 08:30  1/1       450000 FCFA
+ET900   Cotonou         Abidjan         20/12/2026 22:10  2/2       150000 FCFA
+
+Numero du vol : 
+[OK] Reservation R002 creee (EN ATTENTE de paiement).
+     Montant a regler : 450000 FCFA
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Liste des reservations ---
+ID     Passager                Vol     Statut            Remboursement
+----------------------------------------------------------------------------
+R001   Alida Houénou          AF512   ANNULEE           Rembourse
+R002   Koffi Dossou            AF512   EN ATTENTE        Non applicable
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+--- Informations d'une reservation ---
+Identifiant de la reservation : 
+Reservation : R001  (creee le 13/11/2026 09:40)
+Statut      : ANNULEE
+Remboursement : Rembourse
+
+  Passager  : P001 - Alida Houénou
+  Telephone : +229 97 00 00 01
+  Piece ID  : AB123456
+
+  Vol       : AF512 - Cotonou -> Paris
+  Depart    : 15/12/2026 08:30
+  Prix      : 450000 FCFA
+
+  Paiement  : PAY001 - 450000 FCFA (Mobile Money) le 13/11/2026 09:40
+
+==================================================
+   AGENCE DE VOYAGE - COTONOU
+==================================================
+  1. Enregistrer un passager
+  2. Ajouter un vol
+  3. Afficher les vols disponibles
+  4. Rechercher un vol
+  5. Effectuer une reservation
+  6. Enregistrer un paiement
+  7. Annuler une reservation
+  8. Consulter les reservations
+  9. Afficher les informations d'une reservation
+ 10. Quitter
+--------------------------------------------------
+Votre choix (1-10) : 
+Merci d'avoir utilise l'application. Au revoir !
